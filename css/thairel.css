@@ -17,16 +17,21 @@ header img{
 	border: 10px solid #0000ff;
 }
 p{
-	font-style: cursive;
-	text-decoration: underline;
+	font-family: Georgia, Serif;
 	color: #0000ff;
+	font-style: italic;
 }
 .content{
 	background-color: #2ee8d5;
 	text-align: center;
 	margin: 0px auto;
 	font-size: 32px;
-	font-style: bold;
+}
+.content ol li{
+	background-color: #f4429e;
+	list-style: none;
+	border-radius: 25px;
+	margin: 5px;
 }
 h2{
 	margin: 0;
@@ -60,7 +65,6 @@ footer{
 }
 footer ul{
 	text-align: center;
-
 }
 footer ul li{
 	display: inline-block;
